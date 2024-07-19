@@ -1,10 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
-int main(){
-    vector<int> v;
-    for(int i=0;i<5;i++){
-        v.push_back(i);
+int main()
+{
+    vector<int>v={1,2,3,4,5};
+    for(auto i:v){
+        cout<<i<<" ";
     }
-    cout<<v.size();
-    cout<<v.capacity();
 }
